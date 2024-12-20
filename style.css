@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    color: #e0894f;
+}
+.header h1{
+    font-size: 30px;
+}
+.header ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: #0b4155;
+    font-size: 18px;
+}
+.header ul:hover{
+    color: #e0894f;
+}
+.header i{
+    font-size: 30px;
+}
+
+/* hero */
+.image{
+    position: relative;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    gap: 100px
+     ;
+    margin-top: 50px ;
+}
+.hero .p{
+    font-size: 30px;font-style: light;
+    border-left:5px solid #e0894f;
+    padding: 10px;
+    line-height: 50px;
+    height: 200px;
+    color: gray;
+}
+.hero img{
+    width: 650px;
+    height: 450px;
+   
+    
+}
+.box1{
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    left: -60px;
+    bottom: -60px;
+    background:linear-gradient(to bottom,#e0894f,#0b4155) ;
+    opacity: 0.6;
+    border-radius: 6px;
+
+}
+.box2{
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    left: -80px;
+    bottom: -80px;
+    background:linear-gradient(to bottom,#e0894f,#0b4155) ;
+    opacity: 0.6;
+    border-radius: 6px;
+
+}
+.text{
+    width: 300px;
+    font-size: 12px;
+    line-height: 20px;
+    font-style: light;
+    color: gray;
+    box-shadow: 2px 2px 2px;
+    position: absolute;
+    right: 80px;
+    bottom: 60px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+/* Items */
+.items-section{
+    margin: 100px 0px;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px
+    ;
+}
+.items-section h1{
+    font-size: 15px;
+    margin-left: 330px;
+    padding: 10px;
+}
+.item img{
+    width: 260px;
+    height: 200px;
+    border-radius: 8px;
+}
+.item p{
+    font-style: light;
+    color: gray;
+    font-size: 12px;
+    padding: 8px 0px;
+}
+.item h5{
+    font-size: 12px;
+    font-style: light;
+}
+.add-card{
+    width: 200px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background-color: white;
+    color: gray;
+    font-size: 12px;
+    box-shadow: 1px 1px 8px ;
+    border-radius: 6px;
+}
+.add-card i,h4{
+    color:#e0894f ;
+}
