@@ -147,7 +147,6 @@
 .Abdalle img{
     width: 500px;
     height: 500px;
-    border: solid 3px cornflowerblue;
 }
 .fine{
     width: 400px;
@@ -156,6 +155,7 @@
 }
 #name{
     background-color: #e0894f;
+    opacity: 0.4;
     border-radius: 5px;
     padding: 5px 5px;
     margin-right: 20px;
@@ -226,12 +226,12 @@
 
 .Abdalle2{
     background:linear-gradient(to right,#e0894f,white) ;
-    height: 250px;
+    height: 180px;
     width: 900px;
     margin: 20px 300px;
     text-align: center;
     padding-left: 140px;
-    padding-top: 100px;
+    padding-top: 80px;
     opacity: 0.6;
 }
 .boxx{
