@@ -135,3 +135,178 @@
 .add-card i,h4{
     color:#e0894f ;
 }
+
+.Abdalle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 300px;
+    position: relative;
+
+}
+.Abdalle img{
+    width: 500px;
+    height: 500px;
+    border: solid 3px cornflowerblue;
+}
+.fine{
+    width: 400px;
+    margin-top: 240px;
+    margin-left: 70px;
+}
+#name{
+    background-color: #e0894f;
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin-right: 20px;
+    
+}
+
+
+.postion{
+    position: absolute;
+    top: 20px;
+    left: 430px;
+    height: 250px;
+    width: 500px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px gainsboro;
+    display: flex;
+    gap: 10px;
+    border-radius: 5px;
+}
+.po1{
+    margin-left: 10px;
+    border-right: 1px solid gray;
+    width: 120px;
+   
+
+}
+.po1 p{
+    padding-bottom: 15px;
+    margin-top: 10px;
+}
+.po1 h6{
+    color:#e0894f ;
+    margin-top: 60px;
+}
+
+.show{
+    border-right: 1px solid gray;
+    width: 160px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 80px 80px ;
+    margin-top: 10px;
+}
+.grid p{
+    padding: 10px 0;
+}
+.show h6{
+    color: gray;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.btn{
+    margin-top: 200px;
+}
+.btn1{
+    padding: 5px 20px;
+    color: #e0894f;
+    border: solid #e0894f 2px;
+}
+.btn2{
+    border: none;
+    background-color: #e0894f;
+    color: white;
+    padding: 7px 30px;
+}
+
+.Abdalle2{
+    background:linear-gradient(to right,#e0894f,white) ;
+    height: 250px;
+    width: 900px;
+    margin: 20px 300px;
+    text-align: center;
+    padding-left: 140px;
+    padding-top: 100px;
+    opacity: 0.6;
+}
+.boxx{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: white;
+    margin: 10px 230px;
+    padding: 5px 0;
+    border: #e0894f solid 4px;
+    align-items: center;
+
+
+}
+.boxx p{
+    padding-left: 10px;
+    opacity: 0.6;
+}
+.boxx button{
+    background-color: #e0894f;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    margin-right:5px ;
+}
+.pp{
+    
+   width: 400px;
+    margin:10px 240px;
+}
+
+.footer{
+    margin: 30px 300px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px -1px 2px rgba(0, 0, 0, 0.3);
+    height: 200px;
+   
+}
+.f1{
+    border-right: solid 1px rgb(211, 211, 211);
+    width: 400px;
+    padding-left: 10px;
+}
+.f1 h1{
+    color: #e0894f;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.f1 p{
+    padding: 10px 0;
+    font-size: 20px;
+    color: gray;
+}
+.f1 h5{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.f2 h1{
+    color: #e0894f;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.f2 h6{
+    font-size: 18px;
+color: gray;
+margin-top: 10px;
+}
+.iconn{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: gray;
+}
+hr{
+    margin-top: 80px;
+}
