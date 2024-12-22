@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -11,6 +15,7 @@
 }
 .header h1{
     font-size: 30px;
+    font-family: "Saira Stencil One";
 }
 .header ul{
     list-style: none;
@@ -207,6 +212,7 @@
     color: gray;
     font-size: 15px;
     margin-top: 10px;
+    font-family: "";
 }
 
 .btn{
